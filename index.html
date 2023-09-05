@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Website</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+            <a href="" class="navbar-brand ps-4 fs-3 text-warning">
+                Fruit Corner
+            </a>
+            <button class="navbar-toggler mx-3" type="button" data-toggle="collapse" data-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ms-auto px-4">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link text-white">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#service" class="nav-link text-white">Service</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#gallery" class="nav-link text-white">Gallery</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#aboutus" class="nav-link text-white">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="#approach" class="nav-link text-white">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home bg-dark" id="home">
+            <div class="container col-xxl-10 px-4 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="display-5 fw-bold text-warning lh-2 mb-4">Welcome to The Fruit Corner!</h1>
+                        <p class="lead text-white">Our mission is simple: to bring you the freshest, juiciest, and most
+                            flavorful fruits available. We work tirelessly to source our fruits from local growers and
+                            trusted suppliers who share our dedication to quality. Every fruit that graces our shelves
+                            undergoes rigorous quality checks to ensure that it meets our high standards.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-warning btn-lg px-4 me-md-2">Buy now</button>
+                            <button type="button" class="btn btn-outline-warning btn-lg px-4">Explore</button>
+                        </div>
+                    </div>
+                    <div class="col-11 col-sm-12 col-md-12 col-lg-6">
+                        <img src="./images/home.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"
+                            width="700" height="500" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service" id="service">
+            <div class="container px-4 pt-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom">Our Services</h2>
+
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-4 py-3">
+                    <div class="col d-flex align-items-center my-4">
+                        <div>
+                            <h3 class="fw-bold mb-2 fs-4 text-body-emphasis">Fresh Fruits</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla non blanditiis
+                                error
+                                magnam tempora?</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center my-4">
+                        <div>
+                            <h3 class="fw-bold mb-2 fs-4 text-body-emphasis">Freshly Juices</h3>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat nulla non blanditiis
+                                error
+                                magnam tempora?</p>
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center my-4">
+                        <div>
+                            <h3 class="fw-bold mb-2 fs-4 text-body-emphasis">Smoothies</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam architecto nisi
+                                sapiente eos nostrum?
+                        </div>
+                    </div>
+                    <div class="col d-flex align-items-center my-4">
+                        <div>
+                            <h3 class="fw-bold mb-2 fs-4 text-body-emphasis">Fruit Baskets</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi quam architecto nisi
+                                sapiente eos nostrum?
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutus bg" id="aboutus">
+            <div class="container px-4 py-5">
+                <h2 class="pb-2 border-bottom">About Us</h2>
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6 col-sm-12 px-5 ">
+                        <img src="./images/img1.png" alt="" width="100%">
+                    </div>
+                    <div class="col-lg-6 col-sm-12 bg-warning p-5 rounded">
+                        <h1>About Us</h1>
+                        <p class="my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus vitae
+                            asperiores
+                            expedita veniam? Quas saepe est iure voluptate? Quas numquam animi nostrum repellendus ab
+                            ipsum
+                            optio quo repudiandae odit necessitatibus fugit officiis dicta esse, commodi non
+                            accusantium?
+                            Maxime amet voluptatum voluptates repudiandae delectus esse, est dolore alias corrupti.
+                            Unde,
+                            quisquam.</p>
+                        <button class="btn btn-dark">Know More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="container px-4 ">
+                <h2 class="pb-2 border-bottom">Gallery</h2>
+                <div class="row flex-lg-row align-items-center g-3 py-5">
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/img2.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/img3.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/img2.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/img3.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class=" card " style="width: 18rem;">
+                            <img src="./images/img2.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./images/img3.png" class="card-img-top" alt="..." height="70%">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of
+                                    the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="approach" id="approach">
+            <div class="container px-4 ">
+                <h2 class="pb-2 border-bottom">For Approach</h2>
+                <div class="row flex-lg-column justify-content-center align-items-center g-3 py-5">
+                    <div class="col-lg-8 col-sm-8 mb-2">
+                        <input type="text" class="form-control shadow" id="name" placeholder="Name">
+                    </div>
+                    <div class="col-lg-8 col-sm-8 mb-2">
+                        <input type="text" class="form-control shadow" id="name" placeholder="Phone Number">
+                    </div>
+                    <div class="col-lg-8 col-sm-8 mb-2">
+                        <input type="email" class="form-control shadow" id="name" placeholder="Email">
+                    </div>
+                    <div class="col-lg-8 col-sm-8 mb-2">
+                        <input type="text" class="form-control shadow" id="name" placeholder="Address">
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 btn btn-warning py-2">SEND NOW</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-dark py-3">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-white">© 2023 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-warning" href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li class="ms-3"><a class="text-warning" href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li class="ms-3"><a class="text-warning" href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              </ul>
+            </footer>
+          </div>
+    </footer>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</body>
+
+</html>
